@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    padding: 20px 0 20px 0;
+}
+
+.container {
+    width: 95%;
+    margin-inline: auto;
+    max-width: 80rem;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: 25% 5%; 
+}
+
+.relative {
+    position: relative;
+    height: 600px;
+}
+
+.box {
+    width: 130px;
+    height: 120px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    transform: skew(-10deg);
+    margin-left: 30px;
+    margin-bottom: -30px;
+}
+
+.flex-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle {
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 15px solid #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.divider {
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(255, 207, 207);
+}
+
+.share-button {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+}
+
+
+.icon {
+    width: 20px;
+}
+
+.pagination-section {
+    margin-top: 60px;
+}
+
+#pagination {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-box {
+    border: 1px solid rgb(255, 207, 207);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.current-pagination {
+    background-color: red;
+    color: white;
+}
+
+
+/* Typography */
+.date {
+    color: #fff;
+    transform: skew(10deg); 
+}
+
+.date h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.date p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.share-button {
+    cursor: pointer;
+}
+
+.share-button h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.author-section h4 {
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.author-section h2 {
+    font-size: 34px;
+    color: #323d43;
+    font-weight: 800;
+}
+
+.author-section a{
+    text-decoration: none;
+    color: #323d43;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px ;
+}
+
+.author-section p {
+    margin: 20px 0 20px 0;
+    font-weight: 500;
+    font-size: 20px;
+    color: #3c3c3c;
+}
